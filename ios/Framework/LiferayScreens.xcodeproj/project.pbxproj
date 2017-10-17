@@ -1260,9 +1260,11 @@
 		0BF917CE1D76BFA800C86C85 /* NSDate+Screens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Screens.swift"; sourceTree = "<group>"; };
 		0BFE28381D87E13300261A66 /* LRScreenscommentService_v70.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRScreenscommentService_v70.h; sourceTree = "<group>"; };
 		0BFE28391D87E13300261A66 /* LRScreenscommentService_v70.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRScreenscommentService_v70.m; sourceTree = "<group>"; };
+		290840BA463DDB29523852EF /* Pods-Screens-LiferayScreens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screens-LiferayScreens.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Screens-LiferayScreens/Pods-Screens-LiferayScreens.debug.xcconfig"; sourceTree = "<group>"; };
 		601A72E78E13C61E0936DAFC /* Pods-Screens-LiferayScreensXamarin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screens-LiferayScreensXamarin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Screens-LiferayScreensXamarin/Pods-Screens-LiferayScreensXamarin.release.xcconfig"; sourceTree = "<group>"; };
 		6A201C4FCF2C05BD0381F239 /* Pods-Screens-LiferayScreensXamarin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screens-LiferayScreensXamarin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Screens-LiferayScreensXamarin/Pods-Screens-LiferayScreensXamarin.debug.xcconfig"; sourceTree = "<group>"; };
 		76277052A489CACA834992A8 /* Pods_Screens_LiferayScreensTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Screens_LiferayScreensTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C3E92D95E5B5AD8A3B7FE1 /* Pods-Screens-LiferayScreens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Screens-LiferayScreens.release.xcconfig"; path = "Pods/Target Support Files/Pods-Screens-LiferayScreens/Pods-Screens-LiferayScreens.release.xcconfig"; sourceTree = "<group>"; };
 		88019FA11B8F22EE00674B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/webcontentdisplay-screenlet.strings"; sourceTree = "<group>"; };
 		880459EC1CA15FA400449D55 /* DDMFieldTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDMFieldTableCell.swift; sourceTree = "<group>"; };
 		880ACA5A1B01FBF0007AD007 /* UploadUserPortraitInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadUserPortraitInteractor.swift; sourceTree = "<group>"; };
@@ -1552,6 +1554,8 @@
 				AD76E36E85BE8E49BD3D8E53 /* Pods-Screens-LiferayScreensTests.release.xcconfig */,
 				6A201C4FCF2C05BD0381F239 /* Pods-Screens-LiferayScreensXamarin.debug.xcconfig */,
 				601A72E78E13C61E0936DAFC /* Pods-Screens-LiferayScreensXamarin.release.xcconfig */,
+				290840BA463DDB29523852EF /* Pods-Screens-LiferayScreens.debug.xcconfig */,
+				87C3E92D95E5B5AD8A3B7FE1 /* Pods-Screens-LiferayScreens.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -4603,7 +4607,7 @@
 		};
 		8892C68F1ACB2E3300192232 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5432F2E81C65C4AD4F2FFBD2 /* Pods-Screens-LiferayScreens.debug.xcconfig */;
+			baseConfigurationReference = 290840BA463DDB29523852EF /* Pods-Screens-LiferayScreens.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -4625,7 +4629,7 @@
 		};
 		8892C6901ACB2E3300192232 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2237E9DCCD08CBEE61B1B3CA /* Pods-Screens-LiferayScreens.release.xcconfig */;
+			baseConfigurationReference = 87C3E92D95E5B5AD8A3B7FE1 /* Pods-Screens-LiferayScreens.release.xcconfig */;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
