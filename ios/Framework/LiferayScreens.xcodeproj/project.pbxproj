@@ -173,7 +173,6 @@
 		0B5CD3341F62A21000C2285B /* default-thumb-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CD2F51F62A21000C2285B /* default-thumb-up.png */; };
 		0B5CD3351F62A21000C2285B /* default-thumb-up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CD2F61F62A21000C2285B /* default-thumb-up@2x.png */; };
 		0B5CD3361F62A21000C2285B /* default-thumb-up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CD2F71F62A21000C2285B /* default-thumb-up@3x.png */; };
-		0B5CD3371F62A21000C2285B /* default-user-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CD2F81F62A21000C2285B /* default-user-icon.png */; };
 		0B5CD3381F62A21000C2285B /* default-user-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CD2F91F62A21000C2285B /* default-user-icon@2x.png */; };
 		0B5CD3391F62A21000C2285B /* default-volumemute.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CD2FA1F62A21000C2285B /* default-volumemute.png */; };
 		0B5CD33A1F62A21000C2285B /* default-volumemute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CD2FB1F62A21000C2285B /* default-volumemute@2x.png */; };
@@ -2247,8 +2246,8 @@
 		8892C66E1ACB2E3300192232 = {
 			isa = PBXGroup;
 			children = (
-				8892C67A1ACB2E3300192232 /* LiferayScreens */,
 				8892C6871ACB2E3300192232 /* Tests */,
+				8892C67A1ACB2E3300192232 /* LiferayScreens */,
 				8892C6791ACB2E3300192232 /* Products */,
 				64425867C18F568E2864B9C1 /* Frameworks */,
 				03DFDB3C8DEB7E99041772F5 /* Pods */,
@@ -2791,7 +2790,6 @@
 				0BBEDA1B1D5B22FF00F8CB31 /* ImageGallerySlideshowCell.xib in Resources */,
 				881E62311ACBFC3400862B9E /* UserPortraitView_default.xib in Resources */,
 				881E62391ACBFC3400862B9E /* DDLFieldDocumentlibraryPresenterViewController_default.xib in Resources */,
-				0B5B5EC81D5876A10007D4B1 /* default-placeholder-image.png in Resources */,
 				0BC700CD1EB20795006DD475 /* WebView_default.xib in Resources */,
 				880ACA7F1B0224A0007AD007 /* signup-screenlet.strings in Resources */,
 				881E62371ACBFC3400862B9E /* DDLFieldDateTableCell_default.xib in Resources */,

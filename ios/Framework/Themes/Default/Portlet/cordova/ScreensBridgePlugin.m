@@ -31,7 +31,7 @@
 		[vc handleJsCallWithNamespace:namespace message: message];
 	});
 
-	[self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+	[self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];*/
 }
 
 @end
