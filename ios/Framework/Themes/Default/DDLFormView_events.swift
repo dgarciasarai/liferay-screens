@@ -13,6 +13,7 @@
  */
 import Foundation
 
-public class DDLFormView_events: DDLFormView_default {
+@objc(DDLFormView_events)
+open class DDLFormView_events: DDLFormView_default {
 
 }

@@ -23,7 +23,7 @@ open class DDLFieldSelectTableCell_default: DDLBaseFieldTextboxTableCell_default
 
 	let rowHeight: CGFloat = 50
 
-	open var cellBackgroundColor: UIColor = DefaultThemeBasicBlue
+	open var cellBackgroundColor: UIColor = UIColor(red: 28/255.0, green: 117/255.0, blue: 185/255.0, alpha: 1.0)
 
 	open var options: [DDMFieldStringWithOptions.Option] = []
 

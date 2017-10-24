@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		069DA62B61E96C4B7F9348C3 /* Pods_Screens_LiferayScreensXamarin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87A66990734AE5230D0C891 /* Pods_Screens_LiferayScreensXamarin.framework */; };
+		0B0D5B821F9F405B0071056F /* DDLFieldTextTableCell_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0D5B7F1F9F405B0071056F /* DDLFieldTextTableCell_events.xib */; };
+		0B0D5B831F9F405B0071056F /* DDLFieldTextTableCell_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0D5B7F1F9F405B0071056F /* DDLFieldTextTableCell_events.xib */; };
+		0B0D5B851F9F467A0071056F /* DDLFieldSelectTableCell_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0D5B841F9F467A0071056F /* DDLFieldSelectTableCell_events.xib */; };
+		0B0D5B861F9F467A0071056F /* DDLFieldSelectTableCell_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B0D5B841F9F467A0071056F /* DDLFieldSelectTableCell_events.xib */; };
 		0B1063161D49E7C9001D8DE3 /* WebContentListView_default-collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1063151D49E7C9001D8DE3 /* WebContentListView_default-collection.swift */; };
 		0B1063181D49E7DE001D8DE3 /* WebContentListView_default-collection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1063171D49E7DE001D8DE3 /* WebContentListView_default-collection.xib */; };
 		0B139A831EB9EE1E00628D24 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 0B139A821EB9EE1E00628D24 /* default.css */; };
@@ -1029,6 +1033,8 @@
 
 /* Begin PBXFileReference section */
 		039C3B21F16B559B9C196029 /* Pods_Screens_LiferayScreens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Screens_LiferayScreens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0D5B7F1F9F405B0071056F /* DDLFieldTextTableCell_events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLFieldTextTableCell_events.xib; sourceTree = "<group>"; };
+		0B0D5B841F9F467A0071056F /* DDLFieldSelectTableCell_events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLFieldSelectTableCell_events.xib; sourceTree = "<group>"; };
 		0B1063151D49E7C9001D8DE3 /* WebContentListView_default-collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebContentListView_default-collection.swift"; sourceTree = "<group>"; };
 		0B1063171D49E7DE001D8DE3 /* WebContentListView_default-collection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "WebContentListView_default-collection.xib"; sourceTree = "<group>"; };
 		0B139A821EB9EE1E00628D24 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
@@ -2296,6 +2302,8 @@
 		881E61BA1ACBFC3400862B9E /* Default */ = {
 			isa = PBXGroup;
 			children = (
+				0B0D5B841F9F467A0071056F /* DDLFieldSelectTableCell_events.xib */,
+				0B0D5B7F1F9F405B0071056F /* DDLFieldTextTableCell_events.xib */,
 				0B2FAD861F9F3134006F8FAA /* DDLFormView_events.swift */,
 				0B2FAD801F9F3116006F8FAA /* DDLFormView_events.xib */,
 				0B2FAD811F9F3116006F8FAA /* DDLSubmitButtonTableCell_events.xib */,
@@ -3173,6 +3181,7 @@
 				0B77846C1F95F60C001C9134 /* default-calendar.png in Resources */,
 				0B77846D1F95F60C001C9134 /* default-cancel-upload.png in Resources */,
 				0B77846E1F95F60C001C9134 /* default-point.png in Resources */,
+				0B0D5B861F9F467A0071056F /* DDLFieldSelectTableCell_events.xib in Resources */,
 				0B77846F1F95F60C001C9134 /* CommentListView_default.xib in Resources */,
 				0B7784701F95F60C001C9134 /* default-point@3x.png in Resources */,
 				0B7784711F95F60C001C9134 /* AudioDisplayView_default.xib in Resources */,
@@ -3295,6 +3304,7 @@
 				0B7784E41F95F60C001C9134 /* ImageGalleryGridCell.xib in Resources */,
 				0B7784E51F95F60C001C9134 /* default-fast-rewind@2x.png in Resources */,
 				0B7784E61F95F60C001C9134 /* DDLListView_default.xib in Resources */,
+				0B0D5B831F9F405B0071056F /* DDLFieldTextTableCell_events.xib in Resources */,
 				0B7784E71F95F60C001C9134 /* default-calendar@2x.png in Resources */,
 				0B7784E81F95F60C001C9134 /* default-field@2x.png in Resources */,
 				0B7784E91F95F60C001C9134 /* default-volumemute.png in Resources */,
@@ -3311,6 +3321,7 @@
 				0B5CD3001F62A21000C2285B /* default-calendar.png in Resources */,
 				0B5CD3021F62A21000C2285B /* default-cancel-upload.png in Resources */,
 				0B5CD3251F62A21000C2285B /* default-point.png in Resources */,
+				0B0D5B851F9F467A0071056F /* DDLFieldSelectTableCell_events.xib in Resources */,
 				0BF917CB1D76BEA000C86C85 /* CommentListView_default.xib in Resources */,
 				0B5CD3271F62A21000C2285B /* default-point@3x.png in Resources */,
 				0B217FE01D6C4E9500A23690 /* AudioDisplayView_default.xib in Resources */,
@@ -3433,6 +3444,7 @@
 				0BBEDA2E1D5B230E00F8CB31 /* ImageGalleryGridCell.xib in Resources */,
 				0B5CD3091F62A21000C2285B /* default-fast-rewind@2x.png in Resources */,
 				881E624C1ACBFC3400862B9E /* DDLListView_default.xib in Resources */,
+				0B0D5B821F9F405B0071056F /* DDLFieldTextTableCell_events.xib in Resources */,
 				0B5CD3011F62A21000C2285B /* default-calendar@2x.png in Resources */,
 				0B5CD3101F62A21000C2285B /* default-field@2x.png in Resources */,
 				0B5CD3391F62A21000C2285B /* default-volumemute.png in Resources */,

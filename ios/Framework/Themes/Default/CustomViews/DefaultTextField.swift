@@ -26,7 +26,7 @@ open class DefaultTextField: UITextField {
 
 	@IBInspectable open var defaultColor: UIColor = .lightGray
 
-	@IBInspectable open var highlightColor: UIColor = DefaultThemeBasicBlue
+	@IBInspectable open var highlightColor: UIColor = UIColor(red: 28/255.0, green: 117/255.0, blue: 185/255.0, alpha: 1.0)
 
 	@IBInspectable open var errorColor: UIColor = .red
 

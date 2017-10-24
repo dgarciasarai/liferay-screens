@@ -14,14 +14,14 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WWD-jz-pJ6" id="h6C-76-TvA">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="83.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button opaque="NO" tag="3" contentMode="scaleToFill" restorationIdentifier="submit-form" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YfU-ZY-48B">
-                        <rect key="frame" x="15" y="15" width="290" height="54"/>
+                        <rect key="frame" x="0.0" y="15" width="320" height="54"/>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.45882352941176469" blue="0.72549019607843135" alpha="0.87" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="290" id="NCr-Cc-h6d"/>
+                            <constraint firstAttribute="width" constant="320" id="NCr-Cc-h6d"/>
                             <constraint firstAttribute="height" constant="54" id="uhV-zc-QGH"/>
                         </constraints>
                         <state key="normal">
