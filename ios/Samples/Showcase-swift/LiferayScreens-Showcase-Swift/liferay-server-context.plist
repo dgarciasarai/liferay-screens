@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>server</key>
-	<string>http://screens.liferay.org.es</string>
+	<string>https://forms.liferay.com</string>
 	<key>version</key>
 	<integer>70</integer>
 	<key>companyId</key>
 	<integer>20116</integer>
 	<key>groupId</key>
-	<real>20143</real>
+	<integer>67763</integer>
 	<key>anonymousUsername</key>
 	<string>anonymous1@liferay.com</string>
 	<key>anonymousPassword</key>
@@ -29,11 +29,11 @@
 	<key>ddlRecordId</key>
 	<integer>42631</integer>
 	<key>ddlRecordSetId</key>
-	<integer>42629</integer>
+	<integer>182231</integer>
 	<key>ddlStructureId</key>
-	<integer>29947</integer>
+	<integer>182227</integer>
 	<key>imageDisplayClassPK</key>
-	<integer>42369</integer>
+	<real>42369</real>
 	<key>audioDisplayClassPK</key>
 	<integer>72269</integer>
 	<key>videoDisplayClassPK</key>

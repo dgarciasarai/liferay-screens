@@ -86,12 +86,18 @@
 		0B2180341D6C508200A23690 /* DDMFieldString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2180031D6C4F6F00A23690 /* DDMFieldString.swift */; };
 		0B2180351D6C508200A23690 /* DDMFieldStringWithOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2180041D6C4F6F00A23690 /* DDMFieldStringWithOptions.swift */; };
 		0B2180361D6C508200A23690 /* DDMFieldUntyped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2180051D6C4F6F00A23690 /* DDMFieldUntyped.swift */; };
-		0B2677DE1D3D1E5700FDFC5B /* BuildFile in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2677DE1D3D1E5700FDFC5B /* (null) in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
 		0B2C41541D5A3C7C00764326 /* ImageGalleryCollectionViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2C41421D5A3C7C00764326 /* ImageGalleryCollectionViewBase.swift */; };
 		0B2C415F1D5A3C7C00764326 /* ImageUploadDetailViewController_default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2C414D1D5A3C7C00764326 /* ImageUploadDetailViewController_default.swift */; };
 		0B2C41631D5A3C7C00764326 /* UploadProgressView_default.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2C41511D5A3C7C00764326 /* UploadProgressView_default.xib */; };
 		0B2C41661D5A3CF400764326 /* LRScreensddlrecordService_v62.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2C41641D5A3CF400764326 /* LRScreensddlrecordService_v62.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B2C41671D5A3CF400764326 /* LRScreensddlrecordService_v62.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2C41651D5A3CF400764326 /* LRScreensddlrecordService_v62.m */; };
+		0B2FAD821F9F3116006F8FAA /* DDLFormView_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2FAD801F9F3116006F8FAA /* DDLFormView_events.xib */; };
+		0B2FAD831F9F3116006F8FAA /* DDLSubmitButtonTableCell_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2FAD811F9F3116006F8FAA /* DDLSubmitButtonTableCell_events.xib */; };
+		0B2FAD841F9F3126006F8FAA /* DDLSubmitButtonTableCell_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2FAD811F9F3116006F8FAA /* DDLSubmitButtonTableCell_events.xib */; };
+		0B2FAD851F9F3128006F8FAA /* DDLFormView_events.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2FAD801F9F3116006F8FAA /* DDLFormView_events.xib */; };
+		0B2FAD871F9F3134006F8FAA /* DDLFormView_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2FAD861F9F3134006F8FAA /* DDLFormView_events.swift */; };
+		0B2FAD881F9F3137006F8FAA /* DDLFormView_events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2FAD861F9F3134006F8FAA /* DDLFormView_events.swift */; };
 		0B3699E91E4C929900B82F81 /* LoginCookieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3699E81E4C929900B82F81 /* LoginCookieInteractor.swift */; };
 		0B3B0C851EFBE8AF002EAA76 /* InjectableScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B0C841EFBE8AF002EAA76 /* InjectableScript.swift */; };
 		0B3B0C871EFD1375002EAA76 /* WebScreenletConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B0C861EFD1375002EAA76 /* WebScreenletConfiguration.swift */; };
@@ -471,7 +477,7 @@
 		0B7784621F95F60C001C9134 /* LRScreensjournalarticleService_v70.h in Headers */ = {isa = PBXBuildFile; fileRef = 887E055A1C6A4DF700CA3807 /* LRScreensjournalarticleService_v70.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B7784631F95F60C001C9134 /* LRScreensassetentryService_v70.h in Headers */ = {isa = PBXBuildFile; fileRef = 887E05561C6A4DF700CA3807 /* LRScreensassetentryService_v70.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B7784641F95F60C001C9134 /* LiferayScreensFrameworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DE2AA11AD3ED3B00714701 /* LiferayScreensFrameworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B7784651F95F60C001C9134 /* BuildFile in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7784651F95F60C001C9134 /* (null) in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
 		0B7784661F95F60C001C9134 /* LRScreensjournalarticleService_v62.h in Headers */ = {isa = PBXBuildFile; fileRef = 887E05491C6A4DB000CA3807 /* LRScreensjournalarticleService_v62.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B7784671F95F60C001C9134 /* LRScreenscommentService_v70.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFE28381D87E13300261A66 /* LRScreenscommentService_v70.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B7784691F95F60C001C9134 /* SignUpView_default.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881E61C71ACBFC3400862B9E /* SignUpView_default.xib */; };
@@ -1091,6 +1097,9 @@
 		0B2C41511D5A3C7C00764326 /* UploadProgressView_default.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadProgressView_default.xib; sourceTree = "<group>"; };
 		0B2C41641D5A3CF400764326 /* LRScreensddlrecordService_v62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRScreensddlrecordService_v62.h; sourceTree = "<group>"; };
 		0B2C41651D5A3CF400764326 /* LRScreensddlrecordService_v62.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRScreensddlrecordService_v62.m; sourceTree = "<group>"; };
+		0B2FAD801F9F3116006F8FAA /* DDLFormView_events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLFormView_events.xib; sourceTree = "<group>"; };
+		0B2FAD811F9F3116006F8FAA /* DDLSubmitButtonTableCell_events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDLSubmitButtonTableCell_events.xib; sourceTree = "<group>"; };
+		0B2FAD861F9F3134006F8FAA /* DDLFormView_events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDLFormView_events.swift; sourceTree = "<group>"; };
 		0B3699E81E4C929900B82F81 /* LoginCookieInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCookieInteractor.swift; sourceTree = "<group>"; };
 		0B3B0C841EFBE8AF002EAA76 /* InjectableScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectableScript.swift; sourceTree = "<group>"; };
 		0B3B0C861EFD1375002EAA76 /* WebScreenletConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebScreenletConfiguration.swift; sourceTree = "<group>"; };
@@ -2287,6 +2296,9 @@
 		881E61BA1ACBFC3400862B9E /* Default */ = {
 			isa = PBXGroup;
 			children = (
+				0B2FAD861F9F3134006F8FAA /* DDLFormView_events.swift */,
+				0B2FAD801F9F3116006F8FAA /* DDLFormView_events.xib */,
+				0B2FAD811F9F3116006F8FAA /* DDLSubmitButtonTableCell_events.xib */,
 				88B273111B7109C300477E5E /* DefaultProgressPresenter.swift */,
 				881E61E91ACBFC3400862B9E /* DefaultThemeConstants.swift */,
 				0B66FFCC1DAF83D900963DEB /* CustomViews */,
@@ -3018,7 +3030,7 @@
 				0B7784621F95F60C001C9134 /* LRScreensjournalarticleService_v70.h in Headers */,
 				0B7784631F95F60C001C9134 /* LRScreensassetentryService_v70.h in Headers */,
 				0B7784641F95F60C001C9134 /* LiferayScreensFrameworkConfig.h in Headers */,
-				0B7784651F95F60C001C9134 /* BuildFile in Headers */,
+				0B7784651F95F60C001C9134 /* (null) in Headers */,
 				0B7784661F95F60C001C9134 /* LRScreensjournalarticleService_v62.h in Headers */,
 				0B7784671F95F60C001C9134 /* LRScreenscommentService_v70.h in Headers */,
 			);
@@ -3038,7 +3050,7 @@
 				887E069B1C6A4DF800CA3807 /* LRScreensjournalarticleService_v70.h in Headers */,
 				887E06971C6A4DF800CA3807 /* LRScreensassetentryService_v70.h in Headers */,
 				88DE2AA21AD3ED6800714701 /* LiferayScreensFrameworkConfig.h in Headers */,
-				0B2677DE1D3D1E5700FDFC5B /* BuildFile in Headers */,
+				0B2677DE1D3D1E5700FDFC5B /* (null) in Headers */,
 				887E05511C6A4DB000CA3807 /* LRScreensjournalarticleService_v62.h in Headers */,
 				0BFE283A1D87E13300261A66 /* LRScreenscommentService_v70.h in Headers */,
 			);
@@ -3191,6 +3203,7 @@
 				0B77848A1F95F60C001C9134 /* default-preview-assetlist@2x.png in Resources */,
 				0B77848B1F95F60C001C9134 /* DDLFieldCheckboxTableCell_default.xib in Resources */,
 				0B77848C1F95F60C001C9134 /* default-cancel-upload@2x.png in Resources */,
+				0B2FAD851F9F3128006F8FAA /* DDLFormView_events.xib in Resources */,
 				0B77848D1F95F60C001C9134 /* default-form-gradient-bottom@2x.png in Resources */,
 				0B77848E1F95F60C001C9134 /* index.html in Resources */,
 				0B77848F1F95F60C001C9134 /* DDLFieldDocumentlibraryTableCell_default.xib in Resources */,
@@ -3199,6 +3212,7 @@
 				0B7784921F95F60C001C9134 /* default.strings in Resources */,
 				0B7784931F95F60C001C9134 /* default-hourglass.png in Resources */,
 				0B7784941F95F60C001C9134 /* DDLFormView_default.xib in Resources */,
+				0B2FAD841F9F3126006F8FAA /* DDLSubmitButtonTableCell_events.xib in Resources */,
 				0B7784951F95F60C001C9134 /* default.css in Resources */,
 				0B7784961F95F60C001C9134 /* default-preview-commentlist@2x.png in Resources */,
 				0B7784971F95F60C001C9134 /* default-multiline-field.png in Resources */,
@@ -3311,6 +3325,7 @@
 				0B5CD30E1F62A21000C2285B /* default-field-focused@2x.png in Resources */,
 				0B5CD3131F62A21000C2285B /* default-form-gradient-top.png in Resources */,
 				88BCB5611B8CAC22004349F1 /* assetlist-screenlet.strings in Resources */,
+				0B2FAD821F9F3116006F8FAA /* DDLFormView_events.xib in Resources */,
 				0B5CD30D1F62A21000C2285B /* default-field-focused.png in Resources */,
 				0BB467931D8707720044523E /* assetdisplay-screenlet.strings in Resources */,
 				0B5CD33C1F62A21000C2285B /* default-volumeup.png in Resources */,
@@ -3387,6 +3402,7 @@
 				0B5CD33A1F62A21000C2285B /* default-volumemute@2x.png in Resources */,
 				0BB467901D8707430044523E /* rating-screenlet.strings in Resources */,
 				0BBEDA271D5B230700F8CB31 /* ImageGalleryView_default-list.xib in Resources */,
+				0B2FAD831F9F3116006F8FAA /* DDLSubmitButtonTableCell_events.xib in Resources */,
 				0B5CD3181F62A21000C2285B /* default-lock-icon.png in Resources */,
 				0B5CD3381F62A21000C2285B /* default-user-icon@2x.png in Resources */,
 				0B5CD3191F62A21000C2285B /* default-lock-icon@2x.png in Resources */,
@@ -3872,6 +3888,7 @@
 				0B77844A1F95F60C001C9134 /* DDLFormScreenlet.swift in Sources */,
 				0B77844B1F95F60C001C9134 /* UploadProgressViewBase.swift in Sources */,
 				0B77844C1F95F60C001C9134 /* ServerConnectorChain.swift in Sources */,
+				0B2FAD881F9F3137006F8FAA /* DDLFormView_events.swift in Sources */,
 				0B77844D1F95F60C001C9134 /* RatingLoadByEntryIdLiferayConnector.swift in Sources */,
 				0B77844E1F95F60C001C9134 /* AssetDisplayBuilder.swift in Sources */,
 				0B77844F1F95F60C001C9134 /* DDMXSDParser.swift in Sources */,
@@ -4155,6 +4172,7 @@
 				881E61781ACBEE0B00862B9E /* DDLFormScreenlet.swift in Sources */,
 				0B5B5E8D1D5869DB0007D4B1 /* UploadProgressViewBase.swift in Sources */,
 				88B8443C1C73D6C0007A447D /* ServerConnectorChain.swift in Sources */,
+				0B2FAD871F9F3134006F8FAA /* DDLFormView_events.swift in Sources */,
 				889125A71D5479E6006AFA08 /* RatingLoadByEntryIdLiferayConnector.swift in Sources */,
 				0B217FB51D6C4E6F00A23690 /* AssetDisplayBuilder.swift in Sources */,
 				0B2180091D6C4F6F00A23690 /* DDMXSDParser.swift in Sources */,

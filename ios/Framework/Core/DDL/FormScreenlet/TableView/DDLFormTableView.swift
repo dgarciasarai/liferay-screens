@@ -291,7 +291,7 @@ open class DDLFormTableView: DDLFormView,
 
 		for bundle in bundles {
 			if let cellView = registerEditorCellInBundle(bundle,
-					nibName: "DDLCustomField\(field.name)TableCell",
+					nibName: "DDLCustomField\(field.editorType)TableCell",
 					cellId: field.name) {
 
 				setCellHeight(cellView.bounds.size.height, forField: field)
