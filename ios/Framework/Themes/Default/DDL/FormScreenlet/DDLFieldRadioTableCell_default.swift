@@ -91,7 +91,7 @@ open class DDLFieldRadioTableCell_default: DDMFieldTableCell {
 
 		for radioButton in radioGroup!.radioButtons as! [TNCircularRadioButton] {
 			radioButton.data.labelColor = label?.textColor
-			radioButton.data.borderColor = .black
+			radioButton.data.borderColor = radioColor
 			radioButton.data.circleColor = radioColor
 
 			radioButton.update()
