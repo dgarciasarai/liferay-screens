@@ -13,10 +13,12 @@
  */
 import Foundation
 
-@objc(DDLFormView_events)
-open class DDLFormView_events: DDLFormView_default {
+@objc open class NoneProgressPresenter: MBProgressHUDPresenter {
 
-	open override func createProgressPresenter() -> ProgressPresenter {
-		return NoneProgressPresenter()
-	}
+	override open func showHUDInView(_ view: UIView, message: String?,
+	                                   forInteractor interactor: Interactor) {}
+
+	override open func hideHUDFromView(_ view: UIView?, message: String?,
+	                                     forInteractor interactor: Interactor,
+	                                     withError error: NSError?) {}
 }

@@ -650,6 +650,8 @@
 		0BCB4FB21D37C08B0023E2CA /* LRScreensddlrecordService_v70.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB4FB01D37C08B0023E2CA /* LRScreensddlrecordService_v70.m */; };
 		0BE1E0F31D364E96000A2678 /* SequenceType+Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1E0F21D364E96000A2678 /* SequenceType+Screens.swift */; };
 		0BF8CFAA1E51A7B6009B1581 /* LRCookieBlockCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8CFA91E51A7B6009B1581 /* LRCookieBlockCallback.swift */; };
+		0BF8E7C61F9F7435004F61C0 /* NoneProgressPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8E7C51F9F7435004F61C0 /* NoneProgressPresenter.swift */; };
+		0BF8E7C71F9F74B6004F61C0 /* NoneProgressPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8E7C51F9F7435004F61C0 /* NoneProgressPresenter.swift */; };
 		0BF917A01D76BE6900C86C85 /* CommentAddScreenlet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF917881D76BE6900C86C85 /* CommentAddScreenlet.swift */; };
 		0BF917A11D76BE6900C86C85 /* CommentAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF917891D76BE6900C86C85 /* CommentAddViewModel.swift */; };
 		0BF917A21D76BE6900C86C85 /* CommentAddLiferayConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF9178B1D76BE6900C86C85 /* CommentAddLiferayConnector.swift */; };
@@ -1245,6 +1247,7 @@
 		0BCB4FB01D37C08B0023E2CA /* LRScreensddlrecordService_v70.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRScreensddlrecordService_v70.m; sourceTree = "<group>"; };
 		0BE1E0F21D364E96000A2678 /* SequenceType+Screens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceType+Screens.swift"; sourceTree = "<group>"; };
 		0BF8CFA91E51A7B6009B1581 /* LRCookieBlockCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRCookieBlockCallback.swift; sourceTree = "<group>"; };
+		0BF8E7C51F9F7435004F61C0 /* NoneProgressPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoneProgressPresenter.swift; sourceTree = "<group>"; };
 		0BF917881D76BE6900C86C85 /* CommentAddScreenlet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentAddScreenlet.swift; sourceTree = "<group>"; };
 		0BF917891D76BE6900C86C85 /* CommentAddViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentAddViewModel.swift; sourceTree = "<group>"; };
 		0BF9178B1D76BE6900C86C85 /* CommentAddLiferayConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentAddLiferayConnector.swift; sourceTree = "<group>"; };
@@ -2302,6 +2305,7 @@
 		881E61BA1ACBFC3400862B9E /* Default */ = {
 			isa = PBXGroup;
 			children = (
+				0BF8E7C51F9F7435004F61C0 /* NoneProgressPresenter.swift */,
 				0B0D5B841F9F467A0071056F /* DDLFieldSelectTableCell_events.xib */,
 				0B0D5B7F1F9F405B0071056F /* DDLFieldTextTableCell_events.xib */,
 				0B2FAD861F9F3134006F8FAA /* DDLFormView_events.swift */,
@@ -3732,6 +3736,7 @@
 				0B7783A21F95F60C001C9134 /* DDLFormLoadLiferayConnector.swift in Sources */,
 				0B7783A31F95F60C001C9134 /* CommentDeleteLiferayConnector.swift in Sources */,
 				0B7783A41F95F60C001C9134 /* CommentLoadInteractor.swift in Sources */,
+				0BF8E7C71F9F74B6004F61C0 /* NoneProgressPresenter.swift in Sources */,
 				0B7783A51F95F60C001C9134 /* DefaultProgressPresenter.swift in Sources */,
 				0B7783A61F95F60C001C9134 /* AssetListScreenlet.swift in Sources */,
 				0B7783A71F95F60C001C9134 /* LoginBasicInteractor.swift in Sources */,
@@ -4016,6 +4021,7 @@
 				88B844C21C73D8F7007A447D /* DDLFormLoadLiferayConnector.swift in Sources */,
 				0BF917A61D76BE6900C86C85 /* CommentDeleteLiferayConnector.swift in Sources */,
 				0BF917AA1D76BE6900C86C85 /* CommentLoadInteractor.swift in Sources */,
+				0BF8E7C61F9F7435004F61C0 /* NoneProgressPresenter.swift in Sources */,
 				88B273121B7109C300477E5E /* DefaultProgressPresenter.swift in Sources */,
 				0B217FBE1D6C4E6F00A23690 /* AssetListScreenlet.swift in Sources */,
 				88CA805B1B25AF48004C1D59 /* LoginBasicInteractor.swift in Sources */,

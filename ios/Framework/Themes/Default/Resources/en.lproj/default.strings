@@ -32,7 +32,7 @@
 "default-ddlform-upload-picker-select-photo"="Select existing photo...";
 "default-ddlform-upload-picker-select-video"="Select existing video...";
 "default-ddlform-upload-picker-cancel"="Cancel";
-"default-ddlform-submit-button"="SUBMIT";
+"default-ddlform-submit-button"="Submit";
 "default-ddlform-loading-message"="Loading form...\nWait few seconds...";
 "default-ddlform-loading-error"="Error loading the form";
 "default-ddlform-loading-record-message"="Loading data...\nWait few seconds...";
