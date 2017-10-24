@@ -31,11 +31,11 @@ open class DDLFieldRadioTableCell_default: DDMFieldTableCell {
 	open var radioGroup: TNRadioButtonGroup?
 
 	open var radioColor: UIColor {
-		return DefaultThemeBasicBlue
+		return UIColor(red: 28/255.0, green: 117/255.0, blue: 185/255.0, alpha: 1.0)
 	}
 
 	open var radioTextColor: UIColor {
-		return UIColor.black
+		return UIColor(red: 41/255.0, green: 52/255.0, blue: 61/255.0, alpha: 1.0)
 	}
 
 	open var invalidRadioColor: UIColor {
@@ -89,10 +89,10 @@ open class DDLFieldRadioTableCell_default: DDMFieldTableCell {
 		label?.textColor = valid ? self.radioTextColor : self.invalidRadioTextColor
 		let radioColor = valid ? self.radioColor : self.invalidRadioColor
 
-		for radioButton in radioGroup!.radioButtons as! [TNRectangularRadioButton] {
+		for radioButton in radioGroup!.radioButtons as! [TNCircularRadioButton] {
 			radioButton.data.labelColor = label?.textColor
-			radioButton.data.borderColor = radioColor
-			radioButton.data.rectangleColor = radioColor
+			radioButton.data.borderColor = .black
+			radioButton.data.circleColor = radioColor
 
 			radioButton.update()
 		}
@@ -130,17 +130,17 @@ open class DDLFieldRadioTableCell_default: DDMFieldTableCell {
 	}
 
 	open func createRadioButtonData(_ field: DDMFieldStringWithOptions, option: DDMFieldStringWithOptions.Option)
-			-> TNRectangularRadioButtonData {
+			-> TNCircularRadioButtonData {
 
-		let data = TNRectangularRadioButtonData()
+		let data = TNCircularRadioButtonData()
 
 		data.labelFont = radioReferenceLabel?.font
 		data.labelText = option.label
 		data.identifier = option.value
 		data.borderColor = radioColor
-		data.rectangleColor = radioColor
-		data.rectangleHeight = radioButtonWidth
-		data.rectangleWidth = radioButtonWidth
+		data.circleColor = radioColor
+		data.circleRadius = radioButtonWidth
+
 		data.selected = !(field.currentValue as! [DDMFieldStringWithOptions.Option]).filter {
 				if $0.name != nil {
 					return $0.name == option.name
