@@ -33,15 +33,8 @@ open class ImageGalleryView_default: ImageGalleryCollectionViewBase {
 
 	override open func layoutSubviews() {
 		super.layoutSubviews()
-
-		if let orientation = currentOrientation {
-			let actualOrientation = UIApplication.shared.statusBarOrientation
-
-			if orientation != actualOrientation {
-				changeLayout()
-				currentOrientation = actualOrientation
-			}
-		}
+        
+        changeLayout()
 	}
 
 	// MARK: BaseScreenletView
@@ -80,9 +73,16 @@ open class ImageGalleryView_default: ImageGalleryCollectionViewBase {
 	override open func doCreateLayout() -> UICollectionViewLayout {
 		// When the theme is changed dinamically the collection view hasn't the correct bounds at
 		// this time so we use the screenlet (which is also a view) to calculate the itemSize
-		screenlet?.layoutIfNeeded()
-
-		return createCustomLayout()
+        let layout = UICollectionViewFlowLayout()
+        
+        layout.minimumLineSpacing = spacing
+        layout.minimumInteritemSpacing = spacing
+        layout.sectionInset = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
+    
+        layout.itemSize = CGSize(width: 100, height: 100)
+        
+        
+		return layout
 	}
 
 	override open func doFillLoadedCell(
@@ -138,7 +138,11 @@ open class ImageGalleryView_default: ImageGalleryCollectionViewBase {
 	internal func cellWidthForNumberOfColumns(_ numCols: Int) -> CGFloat {
 
 		let horizontalMargins: CGFloat = 40
-		let viewWidth = screenlet!.bounds.width
+        screenlet?.layoutIfNeeded()
+        screenlet?.superview?.layoutIfNeeded()
+        superview?.layoutIfNeeded()
+        
+        let viewWidth = bounds.width
 
 		let cellWidth =  (viewWidth - horizontalMargins) / CGFloat(numCols) - CGFloat(spacing)
 
