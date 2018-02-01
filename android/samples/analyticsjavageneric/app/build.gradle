@@ -16,6 +16,28 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    packagingOptions {
+        pickFirst 'lib/jackson-databind-2.8.3.jar'
+        pickFirst 'lib/jackson-core-2.8.3.jar'
+        pickFirst 'lib/jackson-annotations-2.8.3.jar'
+        pickFirst 'lib/httpasyncclient-4.1.3.jar'
+        pickFirst 'OSGI-INF/com.liferay.petra.json.web.service.client.internal.JSONWebServiceClientImpl.xml'
+        pickFirst 'lib/httpcore-4.4.6.jar'
+        pickFirst 'lib/httpcore-nio-4.4.6.jar'
+        pickFirst 'lib/httpclient-4.5.3.jar'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    maven {
+        url 'https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public'
+    }
+
 }
 
 dependencies {
@@ -25,5 +47,15 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-}
 
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:+'
+
+    implementation group: "com.liferay", name: "com.liferay.petra.json.web.service.client", version: "+"
+
+    implementation group: "com.liferay", name: "com.liferay.analytics.api", version: "1.0.0-20180201.051150-2"
+    implementation group: "com.liferay", name: "com.liferay.analytics.client.impl", version: "1.0.0-20180201.051206-2"
+    implementation group: "com.liferay", name: "com.liferay.analytics.data.binding.impl", version: "1.0.0-20180201.051254-2"
+}
